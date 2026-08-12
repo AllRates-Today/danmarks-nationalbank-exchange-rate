@@ -1,0 +1,53 @@
+{
+  "name": "danmarks-nationalbank-exchange-rate",
+  "version": "1.2.2",
+  "description": "Official Danmarks Nationalbank (Denmark) daily exchange rates — 30 currencies vs DKK, history since 2016. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "dnb",
+    "danmarks",
+    "nationalbank",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "dkk",
+    "central-bank",
+    "official-rates",
+    "denmark",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/dnb/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/danmarks-nationalbank-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/danmarks-nationalbank-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
