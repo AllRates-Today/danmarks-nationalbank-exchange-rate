@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/danmarks-nationalbank-exchange-rate.svg)](https://github.com/AllRates-Today/danmarks-nationalbank-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/danmarks-nationalbank-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/DKK today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fdnb%3Fsource%3DUSD%26target%3DDKK&query=%24.rate&label=USD%2FDKK%20published%20by%20Danmarks%20Nationalbank&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/dnb/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fdnb%3Fsource%3DUSD%26target%3DDKK&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/dnb/)
 
 **Official Danmarks Nationalbank (Denmark) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Danmarks Nationalbank itself prints, every business day.**
 
@@ -32,6 +34,49 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Danmarks Nationalbank table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Danmarks Nationalbank — 30 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AUD | DKK | reference | 4.6393 |
+| BRL | DKK | reference | 1.3318 |
+| CAD | DKK | reference | 4.6849 |
+| CHF | DKK | reference | 8.014 |
+| CNY | DKK | reference | 0.9969 |
+| CZK | DKK | reference | 0.3063 |
+| EUR | DKK | reference | 7.4739 |
+| GBP | DKK | reference | 8.8242 |
+| HKD | DKK | reference | 0.8514 |
+| HUF | DKK | reference | 0.02041 |
+| IDR | DKK | reference | 0.000373 |
+| ILS | DKK | reference | 2.1712 |
+| INR | DKK | reference | 0.069 |
+| ISK | DKK | reference | 0.05455 |
+| JPY | DKK | reference | 0.042213 |
+| KRW | DKK | reference | 0.004973 |
+| MXN | DKK | reference | 0.3709 |
+| MYR | DKK | reference | 1.633 |
+| NOK | DKK | reference | 0.6974 |
+| NZD | DKK | reference | 3.7343 |
+| PHP | DKK | reference | 0.1061 |
+| PLN | DKK | reference | 1.7082 |
+| RON | DKK | reference | 1.3987 |
+| SEK | DKK | reference | 0.6677 |
+| SGD | DKK | reference | 5.2119 |
+| THB | DKK | reference | 0.1984 |
+| TRY | DKK | reference | 0.1358 |
+| USD | DKK | reference | 6.6815 |
+| XDR | DKK | reference | 9.0334 |
+| ZAR | DKK | reference | 0.4013 |
+
+Source: [Official rates published by DNB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/dnb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
