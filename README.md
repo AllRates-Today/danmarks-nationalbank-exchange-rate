@@ -42,7 +42,7 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-13** by Danmarks Nationalbank — 30 rates. Updated 2026-10-13.
+Published **2026-10-13** by Danmarks Nationalbank — 30 rates. Updated 2026-10-14.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -132,10 +132,10 @@ const pair = await getRate('USD', 'DKK', { apiKey: 'art_live_...' });
 {
   bank: 'dnb',
   name: 'Danmarks Nationalbank',
-  rate_date: '2026-10-12',   // Danmarks Nationalbank's own publication date
+  rate_date: '2026-10-13',   // Danmarks Nationalbank's own publication date
   source: 'USD',
   target: 'DKK',
-  rate: 6.6853,
+  rate: 6.6815,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -160,9 +160,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'dnb',
   name: 'Danmarks Nationalbank',
-  rate_date: '2026-10-12',
+  rate_date: '2026-10-13',
   rates: [
-    { "base": "USD", "quote": "DKK", "type": "reference", "value": 6.6853 },
+    { "base": "USD", "quote": "DKK", "type": "reference", "value": 6.6815 },
     // … the rest of the published table (30 currencies vs DKK)
   ],
   disclaimer: '…'
@@ -202,7 +202,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'danmarks-nationalbank-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'DKK', from: '2026-01-01', to: '2026-10-12' },
+  { source: 'USD', target: 'DKK', from: '2026-01-01', to: '2026-10-13' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -215,11 +215,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'DKK',
   from: '2026-01-01',
-  to: '2026-10-12',
+  to: '2026-10-13',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-12', rate: 6.6853, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-13', rate: 6.6815, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -338,9 +338,9 @@ getRate('USD', 'DKK', { apiKey: 'art_live_...' }).then((pair) => console.log(pai
 
 Need the whole archive rather than an API call? The same published tables are mirrored daily as open data:
 
-- Hugging Face: [AllRates/central-bank-exchange-rates](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) — one CSV per institution (`rates/dnb.csv`)
+- Hugging Face: [AllRatesToday/central-bank-exchange-rates](https://huggingface.co/datasets/AllRatesToday/central-bank-exchange-rates) — one CSV per institution (`rates/dnb.csv`)
 - Kaggle: [allratestoday/central-bank-exchange-rates](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates)
-- CDN JSON: `https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/dnb/latest.json`
+- Raw JSON on GitHub: `https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/dnb/latest.json`
 
 ## 🔗 Links
 
