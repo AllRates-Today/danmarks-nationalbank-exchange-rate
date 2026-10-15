@@ -42,40 +42,40 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-14** by Danmarks Nationalbank — 30 rates. Updated 2026-10-14.
+Published **2026-10-15** by Danmarks Nationalbank — 30 rates. Updated 2026-10-15.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | DKK | reference | 4.6806 |
-| BRL | DKK | reference | 1.3291 |
-| CAD | DKK | reference | 4.6962 |
-| CHF | DKK | reference | 8.0122 |
-| CNY | DKK | reference | 0.9977 |
+| AUD | DKK | reference | 4.6091 |
+| BRL | DKK | reference | 1.3188 |
+| CAD | DKK | reference | 4.6945 |
+| CHF | DKK | reference | 8.0333 |
+| CNY | DKK | reference | 0.9968 |
 | CZK | DKK | reference | 0.3069 |
-| EUR | DKK | reference | 7.4754 |
-| GBP | DKK | reference | 8.8587 |
-| HKD | DKK | reference | 0.8508 |
-| HUF | DKK | reference | 0.02058 |
-| IDR | DKK | reference | 0.000373 |
-| ILS | DKK | reference | 2.1704 |
+| EUR | DKK | reference | 7.475 |
+| GBP | DKK | reference | 8.8347 |
+| HKD | DKK | reference | 0.8499 |
+| HUF | DKK | reference | 0.02056 |
+| IDR | DKK | reference | 0.000372 |
+| ILS | DKK | reference | 2.1499 |
 | INR | DKK | reference | 0.0702 |
 | ISK | DKK | reference | 0.0548 |
-| JPY | DKK | reference | 0.042141 |
-| KRW | DKK | reference | 0.004995 |
-| MXN | DKK | reference | 0.3636 |
-| MYR | DKK | reference | 1.6356 |
-| NOK | DKK | reference | 0.705 |
-| NZD | DKK | reference | 3.7488 |
-| PHP | DKK | reference | 0.1062 |
-| PLN | DKK | reference | 1.7123 |
-| RON | DKK | reference | 1.3988 |
-| SEK | DKK | reference | 0.67 |
-| SGD | DKK | reference | 5.2061 |
-| THB | DKK | reference | 0.1989 |
-| TRY | DKK | reference | 0.1352 |
-| USD | DKK | reference | 6.6774 |
-| XDR | DKK | reference | 9.0345 |
-| ZAR | DKK | reference | 0.4054 |
+| JPY | DKK | reference | 0.042217 |
+| KRW | DKK | reference | 0.004955 |
+| MXN | DKK | reference | 0.3601 |
+| MYR | DKK | reference | 1.6336 |
+| NOK | DKK | reference | 0.7017 |
+| NZD | DKK | reference | 3.7353 |
+| PHP | DKK | reference | 0.1057 |
+| PLN | DKK | reference | 1.7105 |
+| RON | DKK | reference | 1.4015 |
+| SEK | DKK | reference | 0.6688 |
+| SGD | DKK | reference | 5.1986 |
+| THB | DKK | reference | 0.1988 |
+| TRY | DKK | reference | 0.135 |
+| USD | DKK | reference | 6.6693 |
+| XDR | DKK | reference | 9.028 |
+| ZAR | DKK | reference | 0.4028 |
 
 Source: [Official rates published by DNB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/dnb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
