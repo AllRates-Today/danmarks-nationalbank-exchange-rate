@@ -20,6 +20,10 @@
 
 > **Official rate, not mid-market:** every value here is a number Danmarks Nationalbank itself published, fixed once printed and carrying the central bank's own `rate_date` — what filings and audits require. Need the live mid-market rate for pricing or display instead? Use the [mid-market API](https://allratestoday.com/docs/) or [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk). The two can diverge by several percent.
 
+## 🔑 Get your API key
+
+Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
+
 ## ⚡ Try it without a key
 
 The latest Danmarks Nationalbank table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
@@ -43,49 +47,45 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-19 by Danmarks Nationalbank — 30 rates. Updated 2026-10-19.</summary>
+<summary>Table as text: published 2026-10-20 by Danmarks Nationalbank — 30 rates. Updated 2026-10-20.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | DKK | reference | 4.6519 |
-| BRL | DKK | reference | 1.3198 |
-| CAD | DKK | reference | 4.7314 |
-| CHF | DKK | reference | 8.0712 |
-| CNY | DKK | reference | 0.9967 |
-| CZK | DKK | reference | 0.3071 |
-| EUR | DKK | reference | 7.4747 |
-| GBP | DKK | reference | 8.8768 |
-| HKD | DKK | reference | 0.8485 |
-| HUF | DKK | reference | 0.02057 |
-| IDR | DKK | reference | 0.000369 |
-| ILS | DKK | reference | 2.1424 |
-| INR | DKK | reference | 0.0701 |
-| ISK | DKK | reference | 0.0548 |
-| JPY | DKK | reference | 0.04208 |
-| KRW | DKK | reference | 0.005009 |
-| MXN | DKK | reference | 0.3603 |
-| MYR | DKK | reference | 1.6311 |
-| NOK | DKK | reference | 0.7081 |
-| NZD | DKK | reference | 3.7766 |
-| PHP | DKK | reference | 0.1057 |
-| PLN | DKK | reference | 1.7099 |
-| RON | DKK | reference | 1.4033 |
-| SEK | DKK | reference | 0.6732 |
-| SGD | DKK | reference | 5.2063 |
-| THB | DKK | reference | 0.1985 |
+| AUD | DKK | reference | 4.6553 |
+| BRL | DKK | reference | 1.3267 |
+| CAD | DKK | reference | 4.7434 |
+| CHF | DKK | reference | 8.092 |
+| CNY | DKK | reference | 0.998 |
+| CZK | DKK | reference | 0.3072 |
+| EUR | DKK | reference | 7.4746 |
+| GBP | DKK | reference | 8.8954 |
+| HKD | DKK | reference | 0.8492 |
+| HUF | DKK | reference | 0.0205 |
+| IDR | DKK | reference | 0.000371 |
+| ILS | DKK | reference | 2.1446 |
+| INR | DKK | reference | 0.0702 |
+| ISK | DKK | reference | 0.05488 |
+| JPY | DKK | reference | 0.042148 |
+| KRW | DKK | reference | 0.005019 |
+| MXN | DKK | reference | 0.3598 |
+| MYR | DKK | reference | 1.6324 |
+| NOK | DKK | reference | 0.7102 |
+| NZD | DKK | reference | 3.785 |
+| PHP | DKK | reference | 0.1056 |
+| PLN | DKK | reference | 1.7078 |
+| RON | DKK | reference | 1.4022 |
+| SEK | DKK | reference | 0.672 |
+| SGD | DKK | reference | 5.2131 |
+| THB | DKK | reference | 0.1981 |
 | TRY | DKK | reference | 0.1344 |
-| USD | DKK | reference | 6.659 |
-| XDR | DKK | reference | 9.0234 |
-| ZAR | DKK | reference | 0.4052 |
+| USD | DKK | reference | 6.6648 |
+| XDR | DKK | reference | 9.0305 |
+| ZAR | DKK | reference | 0.4045 |
 
 </details>
 
 Source: [Official rates published by DNB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/dnb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
-
-## 🔑 Get your API key
-
-Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
 ## 📦 Installation
 
