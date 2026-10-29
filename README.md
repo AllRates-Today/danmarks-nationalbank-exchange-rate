@@ -47,7 +47,7 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Danmarks Nationalbank — 30 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-28 by Danmarks Nationalbank — 30 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -245,6 +245,7 @@ Danmarks Nationalbank is Denmark's central bank, operator of the krone's long-st
 
 - Publisher's own page: [Official exchange rates](https://www.nationalbanken.dk/en/what-we-do/stable-prices-monetary-policy-and-the-danish-economy/exchange-rates) · [www.nationalbanken.dk](https://www.nationalbanken.dk)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Danmarks Nationalbank rates page](https://allratestoday.com/central-bank-rates-api/dnb/)
+- In the API: usually by **15:20 UTC** (measured over the last 10 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
