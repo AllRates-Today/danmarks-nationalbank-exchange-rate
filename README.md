@@ -32,40 +32,40 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-24 by Danmarks Nationalbank — 30 rates. Updated 2026-11-24.</summary>
+<summary>Table as text: published 2026-11-25 by Danmarks Nationalbank — 30 rates. Updated 2026-11-25.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | DKK | reference | 4.528 |
-| BRL | DKK | reference | 1.1615 |
-| CAD | DKK | reference | 4.7586 |
-| CHF | DKK | reference | 8.1394 |
-| CNY | DKK | reference | 1.023 |
-| CZK | DKK | reference | 0.306 |
-| EUR | DKK | reference | 7.4744 |
-| GBP | DKK | reference | 8.93 |
-| HKD | DKK | reference | 0.8694 |
-| HUF | DKK | reference | 0.02022 |
-| IDR | DKK | reference | 0.000374 |
-| ILS | DKK | reference | 2.0412 |
-| INR | DKK | reference | 0.0734 |
+| AUD | DKK | reference | 4.4907 |
+| BRL | DKK | reference | 1.1582 |
+| CAD | DKK | reference | 4.794 |
+| CHF | DKK | reference | 8.2271 |
+| CNY | DKK | reference | 1.0239 |
+| CZK | DKK | reference | 0.3059 |
+| EUR | DKK | reference | 7.4743 |
+| GBP | DKK | reference | 8.9267 |
+| HKD | DKK | reference | 0.8721 |
+| HUF | DKK | reference | 0.02001 |
+| IDR | DKK | reference | 0.000373 |
+| ILS | DKK | reference | 2.0229 |
+| INR | DKK | reference | 0.0741 |
 | ISK | DKK | reference | 0.05448 |
-| JPY | DKK | reference | 0.04286 |
-| KRW | DKK | reference | 0.005071 |
-| MXN | DKK | reference | 0.3538 |
-| MYR | DKK | reference | 1.6566 |
-| NOK | DKK | reference | 0.6963 |
-| NZD | DKK | reference | 3.7301 |
-| PHP | DKK | reference | 0.1069 |
-| PLN | DKK | reference | 1.6759 |
-| RON | DKK | reference | 1.3986 |
-| SEK | DKK | reference | 0.6661 |
-| SGD | DKK | reference | 5.2856 |
-| THB | DKK | reference | 0.2009 |
-| TRY | DKK | reference | 0.1347 |
-| USD | DKK | reference | 6.8178 |
-| XDR | DKK | reference | 9.1584 |
-| ZAR | DKK | reference | 0.3886 |
+| JPY | DKK | reference | 0.042902 |
+| KRW | DKK | reference | 0.00508 |
+| MXN | DKK | reference | 0.347 |
+| MYR | DKK | reference | 1.6592 |
+| NOK | DKK | reference | 0.6935 |
+| NZD | DKK | reference | 3.7286 |
+| PHP | DKK | reference | 0.1075 |
+| PLN | DKK | reference | 1.6684 |
+| RON | DKK | reference | 1.3989 |
+| SEK | DKK | reference | 0.6651 |
+| SGD | DKK | reference | 5.29 |
+| THB | DKK | reference | 0.2003 |
+| TRY | DKK | reference | 0.1349 |
+| USD | DKK | reference | 6.8352 |
+| XDR | DKK | reference | 9.1699 |
+| ZAR | DKK | reference | 0.3862 |
 
 </details>
 
